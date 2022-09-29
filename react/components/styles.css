@@ -59,3 +59,20 @@
    
 }
 
+/* <-------------------- mobile styles-------------------->*/
+
+@media screen and (max-width: 487px){
+.grid__1{
+    display: flex;
+    flex-direction: column;
+}
+
+.grid__itemBig{
+    margin: 0 auto;
+}
+.grid__itemSmall{
+    display: flex;
+    gap: 10px;
+
+}
+}
